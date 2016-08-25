@@ -1,4 +1,5 @@
 package lab1;
+import java.util.Scanner; 
 
 public class chrmckni_lab1 {
 	
