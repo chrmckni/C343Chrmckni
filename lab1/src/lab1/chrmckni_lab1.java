@@ -6,8 +6,8 @@ public class chrmckni_lab1 {
 	public static void main(String[] args) {
 		// Change this testArray in order to test the function
 
-		Scanner scanner = new Scanner( System.in );
-		String input = scanner.nextLine();
+		Scanner sc = new Scanner( System.in );
+		String input = sc.nextLine();
 		
 		List<String> myList = new ArrayList<String>(Arrays.asList(input.split(" ")));
 		
