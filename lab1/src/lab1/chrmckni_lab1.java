@@ -5,9 +5,7 @@ public class chrmckni_lab1 {
 	
 	public static void main(String[] args) {
 		// Change this testArray in order to test the function
-		//int[] testArray = {0, 1, 2, 3, 4, -6, 5, -999, 100};
-		// comment
-		
+
 		Scanner scanner = new Scanner( System.in );
 		String input = scanner.nextLine();
 		
