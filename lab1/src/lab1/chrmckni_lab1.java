@@ -1,11 +1,21 @@
 package lab1;
 import java.util.Scanner; 
-
+import java.util.*;
 public class chrmckni_lab1 {
 	
 	public static void main(String[] args) {
 		// Change this testArray in order to test the function
-		int[] testArray = {0, 1, 2, 3, 4, -6, 5, -999, 100};
+		//int[] testArray = {0, 1, 2, 3, 4, -6, 5, -999, 100};
+		
+		Scanner scanner = new Scanner( System.in );
+		String input = scanner.nextLine();
+		
+		List<String> myList = new ArrayList<String>(Arrays.asList(input.split(" ")));
+		
+		int[] testArray = new int[myList.size()];
+		
+		for (int i = 0; i < testArray.length; i++) 
+			testArray[i] = Integer.parseInt(myList.get(i));
 		
 		System.out.print(positiveAverage(testArray));
 	}
